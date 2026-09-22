@@ -9,6 +9,7 @@ return {
       tailwindcss = {},
       fourmolu = {},
       omnisharp = {},
+      cpplint = {},
       nil_ls = {
         settings = {
           ["nil"] = {

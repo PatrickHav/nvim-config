@@ -28,12 +28,8 @@ return {
       markdown = { "prettier" },
       lua = { "stylua" },
       haskell = { "fourmolu" },
-    },
-    -- Set up format-on-save
-    format_on_save = {
-      timeout_ms = 500,
-      -- If the formatter (like prettier) isn't found, fall back to the LSP's built-in formatter
-      lsp_format = "fallback",
+      c = { "clang-format" },
+      cpp = { "clang-format" },
     },
   },
 }
